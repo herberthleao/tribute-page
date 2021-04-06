@@ -1,0 +1,108 @@
+/**
+ * Default Style
+ *
+ * @author  Herberth Machado <machado@azllan.io>
+ * @version 0.1.0
+ */
+
+* {
+    margin: 0;
+    line-height: 1.6;
+    padding: 0;
+    text-decoration: none;
+}
+
+#main {
+    color: #FFF;
+    background: #222 url('../images/blackboard.png') no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+#title {
+    color: #FFA500;
+    font: italic normal bold 1.8rem 'Comic Neue', cursive;
+}
+
+#img-div {
+    margin: 40px;
+}
+
+#image {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, .3) 0 0 5px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    font: normal normal bold 2.5rem 'Rock Salt', cursive;
+    margin-top: 30px;
+}
+
+#tribute-info {
+    background: rgba(0, 0, 0, .4);
+    border-radius: 20px;
+    font: normal normal normal 1rem 'Comic Neue', cursive;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 40px 40px 40px 50px;
+    text-align: left;
+}
+
+#tribute-info h2 {
+    font: normal normal normal 1.5rem 'Comic Neue', cursive;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#tribute-info div {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link {
+    color: #FFA500;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.work-title {
+    font-style: italic;
+}
+
+.quote {
+    font: italic normal normal 1rem 'Comic Neue', cursive;
+    margin: 40px auto;
+    max-width: 40%;
+    text-align: left;
+}
+
+.signature {
+    font: normal normal normal 1rem 'Comic Neue', cursive;
+}
+
+.heart {
+    color: #F00;
+}
+
+@media screen and (max-width: 768px) {
+    #img-caption {
+        font-size: 2rem;
+    }
+
+    #tribute-info {
+        max-width: 80%;
+    }
+
+    .quote {
+        max-width: 70%;
+        text-align: center;
+    }
+}
