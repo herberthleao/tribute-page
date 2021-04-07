@@ -13,7 +13,7 @@ Developed for learning purposes, as part of the activities necessary for the for
 * HTML
 * CSS
 
-Its visualization can be found at [CodePen](https://codepen.io/leaomachado/full/PoPKadr).
+Its visualization can be found at [CodePen](https://codepen.io/herberthleao/full/PoPKadr).
 
 ## License
 
